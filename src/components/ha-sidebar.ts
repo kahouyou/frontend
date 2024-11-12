@@ -454,7 +454,7 @@ class HaSidebar extends SubscribeMixin(LitElement) {
                     .path=${iconPath}
                   ></ha-svg-icon>`
                 : html`<ha-icon slot="item-icon" .icon=${icon}></ha-icon>`}
-              <span class="item-text">${title}-XX</span>
+              <span class="item-text">${title}</span>
             </paper-icon-item>
             ${this.editMode
               ? html`<ha-icon-button
